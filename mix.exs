@@ -40,7 +40,7 @@ defmodule Jaypeg.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:elixir_make, "~> 0.5.2", runtime: false},
+      {:elixir_make, "~> 0.6", runtime: false},
       {:ex_doc, "~> 0.20.2", only: :dev, runtime: false},
       {:excoveralls, "~> 0.11.1", only: :test},
       {:imgutils, "~> 0.1.1", only: :test}
